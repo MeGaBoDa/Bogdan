@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middle {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    margin-top: 18%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: azure;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: 70%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: red;
+    color: white;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.news_list {
+    overflow: scroll;
+    height: 900px;
+    padding: 200px 50px 0px 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+.news_list::-webkit-scrollbar {
+  display: none;
+}
+
+.news {
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.news>img {
+    float: left;
+    width: 28%;
+}
+
+.content {
+   overflow: hidden;
+   text-overflow: ellipsis;
+    padding-left: 25px;
+}
+
+@font-face {
+    font-family: Catstack;
+    src: url(../fonts/CATStack.ttf);
+}

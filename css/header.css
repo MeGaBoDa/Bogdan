@@ -1,0 +1,20 @@
+.header {
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: green;
+    color: white;
+}
+
+header>* {
+    display: inline-block;
+    width: 49%;
+}
+
+header>h1 {
+    font-family: Catstack;
+    text-align: center;
+    font-size: 50px;
+}
